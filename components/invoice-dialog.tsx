@@ -214,7 +214,7 @@ export function InvoiceDialog({
               <Separator className="my-1" />
               <div className="flex justify-between text-sm font-bold text-foreground">
                 <span>Grand Total</span>
-                <span className="text-primary">₹{total.toFixed(2)}</span>
+                <span className="text-primary font-black">₹{total.toFixed(2)}</span>
               </div>
             </div>
           </div>
